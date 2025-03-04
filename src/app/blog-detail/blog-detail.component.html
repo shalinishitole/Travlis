@@ -1,0 +1,36 @@
+
+
+
+<div class="destination-card">
+  <!-- <h2>Adventure in the Mountains</h2> -->
+  <h2>{{blog.Name}}</h2>
+  
+  <!-- <div class="rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+  </div> -->
+  <div class="content">
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1O04Fm8s4yuhlzr20c6YlG3XUzAdeCTi7ow2TmXBaSv2UEAr" alt="Kashmir" class="destination-image" /> -->
+    <img [src]="imgPath + 'Content/Blog/' + blog.Image"  alt="Kashmir" class="destination-image" >
+    <div class="details">
+      <!-- <p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vel nihil aliquam, distinctio maiores consequuntur? Corrupti quam minima modi labore, optio ea asperiores! Dignissimos eveniet maxime veniam beatae, magnam temporibus corporis debitis quo, velit exercitationem impedit iure perspiciatis sequi et quas? Sint repellendus debitis doloremque ipsam iure. Quidem excepturi totam ullam accusamus, expedita facilis, labore earum obcaecati ipsa vero sunt reiciendis aut voluptates repellendus ducimus eius laudantium, exercitationem deserunt vel?
+      </p> -->
+      <p>City:-
+        {{blog.City}}</p>
+        <p>
+      <p>
+        {{blog.Subtitle}}</p>
+        <p>
+           {{blog.Description}}</p>
+      <!-- <div class="price">
+        <span>Price:</span>
+      
+        
+      </div> -->
+    </div>
+  </div>
+</div>

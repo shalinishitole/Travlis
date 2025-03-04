@@ -1,0 +1,35 @@
+// h4,h6{
+//     color: red;
+// }
+.card {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+  }
+  
+  .card-count {
+    font-size: 3rem; /* Increased font size */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .btn-light {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for the button */
+    color: #333; /* Dark text for contrast */
+    transition: background-color 0.2s; /* Button hover transition */
+  }
+  
+  .btn-light:hover {
+    background-color: #ffffff; /* Solid background on hover */
+    color: #000; /* Darker text on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .card-count {
+      font-size: 2rem;
+    }
+  }
